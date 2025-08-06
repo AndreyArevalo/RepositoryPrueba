@@ -1,4 +1,15 @@
 
+    body{
+            font-family: arial,sans-serif;
+            background: #adb4ff;
+            background: linear-gradient(90deg, rgb(52, 0, 157) 0%, rgba(255, 250, 212, 1) 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
 menu {
     background-color: rgb(39, 56, 245);
     padding: 0%;

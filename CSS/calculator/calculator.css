@@ -1,0 +1,54 @@
+    body{
+            font-family: arial,sans-serif;
+            background: #adb4ff;
+            background: linear-gradient(90deg, rgb(52, 0, 157) 0%, rgba(255, 250, 212, 1) 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card{
+           background-color: antiquewhite;
+           padding: 2rem;
+           border-radius: 10px;
+           box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0, 29);
+           text-align: center;
+           width: 300px;
+           display: flex;
+           flex-direction: column;
+           gap: 10px;
+           align-items: center;
+        }
+
+        input[type="date"]{
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #000;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+                #button{
+            margin-top: 15px;
+            background-color: rgb(108, 0, 161);
+            border: none;
+            padding: 7px 20px;
+            border-radius: 10px;
+            font-size: 16px;
+            box-shadow: 0px 0px 2px 0.5px rgba(0,0,0,0.29);
+            cursor: pointer;
+            transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+
+            }
+
+        a{
+            text-decoration: none;
+            color: #888;
+        }
+
+        a:hover{
+            color: #88888866;
+            text-decoration: double;
+        }
